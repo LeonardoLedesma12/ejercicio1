@@ -1,27 +1,36 @@
-.video{
-  height:100vh;
-  width:100%;
-  background-image: url("https://img.depor.com/files/ec_article_multimedia_gallery/uploads/2017/12/26/5a4280a70a7db.jpeg");
-  background-size: cover;
+.video {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: block;
+  max-height: 80vh;
+  min-height: 100vh;
 }
-.containervideo{
-  height: 100%;
+.container-video {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-.contentvideo{
+.content-video {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.column{
+.colum {
   display: flex;
   flex-direction: column;
 }
-.title_size{
-  font-size:60px;
+.title-size {
+  font-size: 60px;
 }
-.trailer_size{
-  font-size:36px;
+.trailer-size {
+  font-size: 36px;
+}
+h1 {
+  margin: 0px;
 }
