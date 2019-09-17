@@ -1,0 +1,28 @@
+.biocontainer{
+  height: 500px;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+.biocontent{
+  height: 100%;
+  width:70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.bioimg{
+  height: 100%;
+  width: 30%;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+.biotxt{
+  text-transform: uppercase;
+}
+.imbio{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}

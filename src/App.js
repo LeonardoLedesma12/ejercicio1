@@ -3,6 +3,8 @@ import Nav from './components/navbar/Nav';
 import Video from './components/video/Video';
 import Launch from './components/launch/Launch';
 import Media from './components/media/Media';
+import Bio from './components/bio/Bio';
+import Contact from './components/contact/Contact';
 import './App.css';
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Video/>
       <Launch/>
       <Media/>
+      <Bio/>
+      <Contact/>
       </div>
   );
 }

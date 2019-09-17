@@ -1,0 +1,57 @@
+.contactcontainer{
+  height:800px;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.contactcontent{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+.contacttxt{
+  text-transform: uppercase;
+}
+.contactcontent2{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 60px;
+}
+.contactinput{
+  width: 100%;
+  border: 2px solid black;
+  height:50px;
+}
+.divcontent{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.divinput{
+  width: 46%;
+  height:45px;
+  border: 2px solid black;
+}
+.lastcontact{
+  width: 100%;
+  height: 100px;
+  border: 2px solid black;
+}
+.contactbutton{
+  width: 30%;
+  height:40px;
+  background-color: orange;
+}
+.lastspacecontact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
